@@ -352,7 +352,7 @@ QUIZ_TEMPLATE = """
             <span style="font-size: 14px; color: #555;">السؤال: <strong style="color: #114b3e;">{{ current_num }} من {{ total_questions }}</strong></span>
         </div>
 
-        <h2>اختبار الدرس الأول الشامل</h2>
+        <h2>اختبار الدرس الأول مادة الجغرافيا 2 ثانوي أزهر</h2>
        
         <form method="POST" action="{{ url_for('quiz_step') }}" id="quiz-form">
             <div class="question-box">
