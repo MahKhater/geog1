@@ -198,8 +198,8 @@ def quiz_step():
         user_answers[str(current_index)] = {
             "prompt": questions[current_index]['prompt'],
             "user_ans": ans if ans else "لم تتم الإجابة",
-            "correct_ans": questions[current_index]['answer'],
-            "is_correct": (ans == questions[current_index]['answer'])
+            "correct_ans": questions[current_index]['correct_answer'],
+            "is_correct": (ans == questions[current_index]['correct_answer'])
         }
         session['user_answers'] = user_answers
        
